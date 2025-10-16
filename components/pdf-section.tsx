@@ -13,13 +13,20 @@ const pdfFiles = [
   },
   {
     id: 2,
+    title: "Kigambira Safari Lodge Limited 2025 Rate Card.",
+    description: "Detailed pricing information for our offerings.",
+    fileSize: "7.83 MB",
+    downloadUrl: "https://drive.google.com/file/d/1HfvCOPM_pJCQbjz9w0EbsDPvIsdbdKhn/view?usp=drive_link",
+  },
+  {
+    id: 3,
     title: "Kigambira Safari Lodge Limited 2026 Rate Card.",
     description: "Detailed pricing information for our offerings.",
     fileSize: "7.83 MB",
     downloadUrl: "https://drive.google.com/file/d/1DLY6dmzVLXOtVe-Wdc-UdFbQAnqhBf_I/view?usp=drive_link",
   },
   {
-    id: 3,
+    id: 4,
     title: "Kigambira Safari Lodge Limited Fact Sheet.",
     description: "Key facts and figures about our lodge",
     fileSize: "4 MB",

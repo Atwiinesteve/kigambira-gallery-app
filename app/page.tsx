@@ -9,10 +9,10 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance mb-6">
             Kigambira Safari Lodge Media Gallery.
           </h1>
-          <p className="text-lg md:text-xl text-white max-w-2xl text-pretty">
+          {/* <p className="text-lg md:text-xl text-white max-w-2xl text-pretty">
             Explore our collection of images and documents showcasing the beauty and offerings of Kigambira Safari
             Lodge.
-          </p>
+          </p> */}
         </div>
       </section>
 
