@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Download, FileText } from "lucide-react"
+import { FileText, View } from "lucide-react"
 
 // Sample PDF files - replace with your actual PDFs
 const pdfFiles = [
@@ -60,8 +60,8 @@ export function PDFSection() {
               asChild
             >
               <a href={pdf.downloadUrl} download>
-                <Download className="mr-2 h-4 w-4" />
-                Download PDF
+                <View className="mr-2 h-4 w-4" />
+                View PDF
               </a>
             </Button>
           </CardContent>
