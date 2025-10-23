@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { FileText, View } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { FileText } from "lucide-react";
+import { FaEye } from "react-icons/fa";
 
 // Sample PDF files - replace with your actual PDFs
 const pdfFiles = [
@@ -67,7 +68,7 @@ export function PDFSection() {
               asChild
             >
               <a href={pdf.downloadUrl} download>
-                <View className="mr-2 h-4 w-4" />
+                <FaEye className="mr-2 h-4 w-4" />
                 View PDF
               </a>
             </Button>
