@@ -32,6 +32,13 @@ const pdfFiles = [
     fileSize: "4 MB",
     downloadUrl: "https://drive.google.com/file/d/1-Qf1aB_SvpYuaZgiqTqhOFna3BmGFxiu/view?usp=drive_link",
   },
+  {
+    id: 5,
+    title: "Kigambira Safari Lodge Activities.",
+    description: "Explore the exciting activities we offer.",
+    fileSize: "1.11 MB",
+    downloadUrl: "https://drive.google.com/file/d/1YsQ5_vND8ntM-bS7tNY3yGLvpL8teu6j/view?usp=drive_link",
+  }
 ]
 
 export function PDFSection() {
