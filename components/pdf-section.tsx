@@ -39,6 +39,13 @@ const pdfFiles = [
     description: "Explore the exciting activities we offer.",
     fileSize: "1.11 MB",
     downloadUrl: "https://drive.google.com/file/d/1YsQ5_vND8ntM-bS7tNY3yGLvpL8teu6j/view?usp=drive_link",
+  },
+  {
+    id: 6,
+    title: "Direct Client Rates 2026.",
+    description: "Exclusive rates for direct clients.",
+    fileSize: "87.4 KB",
+    downloadUrl: "https://drive.google.com/file/d/1wgwqy9b1nQssfjzzl6jguZE8C1Hy1w4q/view?usp=drive_link",
   }
 ]
 
