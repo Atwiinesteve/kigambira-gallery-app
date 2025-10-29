@@ -272,13 +272,13 @@ export function Gallery() {
           <button
             key={image.id}
             onClick={() => setSelectedImage(image)}
-            className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-secondary transition-all hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="group relative aspect-[4/3] overflow-hidden rounded-none bg-secondary transition-all hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             <Image
               src={image.src || "/placeholder.svg"}
               alt={image.alt}
               fill
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              className="object-cover rounded-none transition-transform duration-300 group-hover:scale-105"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
             />
             {/* <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/0 to-background/0 opacity-0 transition-opacity group-hover:opacity-100" />
@@ -298,7 +298,7 @@ export function Gallery() {
           <Button
             variant="ghost"
             size="icon"
-            className="absolute top-4 right-4 z-10 h-10 w-10 rounded-full bg-secondary/80 hover:bg-secondary"
+            className="absolute top-4 right-4 z-10 h-10 w-10 rounded-none bg-secondary/80 hover:bg-secondary"
             onClick={() => setSelectedImage(null)}
           >
             <X className="h-5 w-5" />
