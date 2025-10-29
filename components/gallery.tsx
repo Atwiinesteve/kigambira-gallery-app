@@ -1,59 +1,121 @@
 "use client"
 
-import { useState } from "react"
-import Image from "next/image"
-import { X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { X } from "lucide-react"
+import Image from "next/image"
+import { useState } from "react"
 
 // Sample gallery images - replace with your actual images
 const galleryImages = [
   {
     id: 1,
-    src: "/modern-architecture-building.png",
-    alt: "Modern Architecture",
-    title: "Modern Architecture",
+    src: "/1.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
   {
     id: 2,
-    src: "/colorful-abstract-art.png",
-    alt: "Abstract Art",
-    title: "Abstract Art",
+    src: "/2.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
   {
     id: 3,
-    src: "/mountain-landscape.png",
-    alt: "Mountain Landscape",
-    title: "Mountain Landscape",
+    src: "/3.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
   {
     id: 4,
-    src: "/urban-city-skyline-night.jpg",
-    alt: "City Skyline",
-    title: "City Skyline",
+    src: "/4.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
   {
     id: 5,
-    src: "/minimalist-interior.png",
-    alt: "Interior Design",
-    title: "Interior Design",
+    src: "/5.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
   {
     id: 6,
-    src: "/technology-digital-innovation.jpg",
-    alt: "Digital Innovation",
-    title: "Digital Innovation",
+    src: "/6.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
   {
     id: 7,
-    src: "/ocean-waves-beach-sunset.jpg",
-    alt: "Ocean Sunset",
-    title: "Ocean Sunset",
+    src: "/7.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
   {
     id: 8,
-    src: "/forest-trees-nature-green.jpg",
-    alt: "Forest Path",
-    title: "Forest Path",
+    src: "/8.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 9,
+    src: "/9.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 10,
+    src: "/10.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 11,
+    src: "/11.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 12,
+    src: "/12.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 13,
+    src: "/13.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 14,
+    src: "/14.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 15,
+    src: "/15.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 16,
+    src: "/16.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 17,
+    src: "/17.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 18,
+    src: "/18.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 19,
+    src: "/19.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 20,
+    src: "/20.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 21,
+    src: "/21.jpg",
+    alt: "Kigambira Safari Lodge View"
+  },
+  {
+    id: 22,
+    src: "/22.jpg",
+    alt: "Kigambira Safari Lodge View"
   },
 ]
 
@@ -77,10 +139,10 @@ export function Gallery() {
               className="object-cover transition-transform duration-300 group-hover:scale-105"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/0 to-background/0 opacity-0 transition-opacity group-hover:opacity-100" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/0 to-background/0 opacity-0 transition-opacity group-hover:opacity-100" />
             <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
               <p className="text-sm font-medium text-foreground">{image.title}</p>
-            </div>
+            </div> */}
           </button>
         ))}
       </div>
@@ -115,9 +177,9 @@ export function Gallery() {
                 priority
               />
             </div>
-            <div className="mt-4 text-center">
+            {/* <div className="mt-4 text-center">
               <h3 className="text-xl font-semibold text-foreground">{selectedImage.title}</h3>
-            </div>
+            </div> */}
           </div>
         </div>
       )}
