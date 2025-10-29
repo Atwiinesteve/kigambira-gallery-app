@@ -1,126 +1,133 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { X } from "lucide-react"
-import Image from "next/image"
-import { useState } from "react"
+import { Button } from "@/components/ui/button";
+import { X } from "lucide-react";
+import Image from "next/image";
+import { useState } from "react";
 
 // Sample gallery images - replace with your actual images
 const galleryImages = [
   {
     id: 1,
     src: "/1.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 2,
     src: "/2.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 3,
     src: "/3.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 4,
     src: "/4.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 5,
     src: "/5.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 6,
     src: "/6.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 7,
     src: "/7.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 8,
     src: "/8.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 9,
     src: "/9.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 10,
     src: "/10.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 11,
     src: "/11.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 12,
     src: "/12.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 13,
     src: "/13.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 14,
     src: "/14.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 15,
     src: "/15.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 16,
     src: "/16.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 17,
     src: "/17.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 18,
     src: "/18.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 19,
     src: "/19.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 20,
     src: "/20.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 21,
     src: "/21.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
   {
     id: 22,
     src: "/22.jpg",
-    alt: "Kigambira Safari Lodge View"
+    alt: "Kigambira Safari Lodge View",
   },
-]
+  {
+    id: 23,
+    src: "/23.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+];
 
 export function Gallery() {
-  const [selectedImage, setSelectedImage] = useState<(typeof galleryImages)[0] | null>(null)
+  const [selectedImage, setSelectedImage] = useState<
+    (typeof galleryImages)[0] | null
+  >(null);
 
   return (
     <>
@@ -184,5 +191,5 @@ export function Gallery() {
         </div>
       )}
     </>
-  )
+  );
 }
