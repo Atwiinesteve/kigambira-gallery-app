@@ -127,6 +127,136 @@ const galleryImages = [
     src: "/24.jpg",
     alt: "Kigambira Safari Lodge View",
   },
+  {
+    id: 25,
+    src: "/25.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 26,
+    src: "/26.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 27,
+    src: "/27.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 28,
+    src: "/28.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 29,
+    src: "/29.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 30,
+    src: "/30.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 31,
+    src: "/31.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 32,
+    src: "/32.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },  
+  {
+    id: 33,
+    src: "/33.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 34,
+    src: "/34.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 35,
+    src: "/35.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },    
+  {
+    id: 36,
+    src: "/36.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 37,
+    src: "/37.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 38,
+    src: "/38.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 39,
+    src: "/39.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 40,
+    src: "/40.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 41,
+    src: "/41.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 42,
+    src: "/42.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id:   43,
+    src: "/43.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 44,
+    src: "/44.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 45,
+    src: "/45.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 46,
+    src: "/46.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 47,
+    src: "/47.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 48,
+    src: "/48.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 49,
+    src: "/49.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
+  {
+    id: 50,
+    src: "/50.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
 ];
 
 export function Gallery() {
