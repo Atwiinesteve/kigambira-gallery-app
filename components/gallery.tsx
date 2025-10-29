@@ -122,6 +122,11 @@ const galleryImages = [
     src: "/23.jpg",
     alt: "Kigambira Safari Lodge View",
   },
+  {
+    id: 24,
+    src: "/24.jpg",
+    alt: "Kigambira Safari Lodge View",
+  },
 ];
 
 export function Gallery() {
