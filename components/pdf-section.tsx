@@ -38,7 +38,7 @@ const pdfFiles = [
     title: "Kigambira Safari Lodge Activities.",
     description: "Explore the exciting activities we offer.",
     fileSize: "1.11 MB",
-    downloadUrl: "https://drive.google.com/file/d/1YsQ5_vND8ntM-bS7tNY3yGLvpL8teu6j/view?usp=drive_link",
+    downloadUrl: "https://docs.google.com/document/d/1I5j8UBOwNl6pbQ5rfpsdoAXcUCLWshoA/edit?usp=drive_link&ouid=100915452081755821255&rtpof=true&sd=true",
   },
   {
     id: 6,
