@@ -6,9 +6,9 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Hero Section */}
       <section className="border-b border-border">
-        <div className="container mx-auto px-4 py-16 md:py-24">
+        <div className="container mx-auto px-4 py-10 md:py-24">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance mb-6">
-            Kigambira Safari Lodge Media Gallery.
+            Kigambira Safari Lodge Content.
           </h1>
           {/* <p className="text-lg md:text-xl text-white max-w-2xl text-pretty">
             Explore our collection of images and documents showcasing the beauty and offerings of Kigambira Safari
