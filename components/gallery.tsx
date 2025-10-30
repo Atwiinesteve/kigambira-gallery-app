@@ -7,11 +7,11 @@ import { useState } from "react";
 
 // Sample gallery images - replace with your actual images
 const galleryImages = [
-  {
-    id: 1,
-    src: "/1.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
+  // {
+  //   id: 1,
+  //   src: "/1.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
   {
     id: 2,
     src: "/2.jpg",
@@ -62,11 +62,11 @@ const galleryImages = [
     src: "/11.jpg",
     alt: "Kigambira Safari Lodge View",
   },
-  {
-    id: 12,
-    src: "/12.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
+  // {
+  //   id: 12,
+  //   src: "/12.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
   {
     id: 13,
     src: "/13.jpg",
@@ -87,16 +87,16 @@ const galleryImages = [
     src: "/16.jpg",
     alt: "Kigambira Safari Lodge View",
   },
-  {
-    id: 17,
-    src: "/17.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
-  {
-    id: 18,
-    src: "/18.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
+  // {
+  //   id: 17,
+  //   src: "/17.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
+  // {
+  //   id: 18,
+  //   src: "/18.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
   {
     id: 19,
     src: "/19.jpg",
@@ -117,16 +117,16 @@ const galleryImages = [
     src: "/22.jpg",
     alt: "Kigambira Safari Lodge View",
   },
-  {
-    id: 23,
-    src: "/23.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
-  {
-    id: 24,
-    src: "/24.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
+  // {
+  //   id: 23,
+  //   src: "/23.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
+  // {
+  //   id: 24,
+  //   src: "/24.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
   {
     id: 25,
     src: "/25.jpg",
@@ -147,16 +147,16 @@ const galleryImages = [
     src: "/28.jpg",
     alt: "Kigambira Safari Lodge View",
   },
-  {
-    id: 29,
-    src: "/29.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
-  {
-    id: 30,
-    src: "/30.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
+  // {
+  //   id: 29,
+  //   src: "/29.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
+  // {
+  //   id: 30,
+  //   src: "/30.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
   {
     id: 31,
     src: "/31.jpg",
@@ -257,11 +257,11 @@ const galleryImages = [
     src: "/50.jpg",
     alt: "Kigambira Safari Lodge View",
   },
-  {
-    id: 51,
-    src: "/51.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
+  // {
+  //   id: 51,
+  //   src: "/51.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
   {
     id: 52,
     src: "/52.jpg",
@@ -282,11 +282,11 @@ const galleryImages = [
     src: "/55.jpg",
     alt: "Kigambira Safari Lodge View",
   },
-  {
-    id: 56,
-    src: "/56.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },    
+  // {
+  //   id: 56,
+  //   src: "/56.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },    
   {
     id: 57,
     src: "/57.jpg",
@@ -322,11 +322,11 @@ const galleryImages = [
     src: "/63.jpg",
     alt: "Kigambira Safari Lodge View",
   },
-  {
-    id: 64,
-    src: "/64.jpg",
-    alt: "Kigambira Safari Lodge View",
-  },
+  // {
+  //   id: 64,
+  //   src: "/64.jpg",
+  //   alt: "Kigambira Safari Lodge View",
+  // },
   {
     id: 65,
     src: "/65.jpg",
